@@ -1,0 +1,39 @@
+a = 2 
+b = 3 
+print( a == b ) # False 
+print( a != b ) # T 
+# <=
+# >=
+# !=
+# and 
+# or 
+# is ==
+print ( 2 is 3 ) # False
+# in 
+name ="hosein koshkian"
+print( "hoseinsfddsf" in name ) # False 
+print( "hosein" in name ) # True  
+print( "h" in name ) # True  
+
+names = ['hosein' , 'sajad' , 'ali' ]
+print( 'hosein' in names ) # True 
+print( 'hose' in names ) #  False
+
+# not 
+a = 1 
+print( bool(a) )
+
+# is not !=
+a =2 
+b = 3 
+print( 2 is not 4  )
+
+# convert data to bool
+print('________')
+print(bool("")) # F
+print(bool("A")) # T
+print(bool(" ")) # T
+print(bool({})) # F
+print(bool([1,2])) # T
+print(bool([ ])) # F
+print(bool(0)) # F
